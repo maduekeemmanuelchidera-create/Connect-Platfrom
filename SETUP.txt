@@ -1,0 +1,5 @@
+1) Copy env.example.js to env.js
+2) Add Supabase URL + anon key
+3) Run supabase/schema.sql in Supabase
+4) npm install
+5) npm start

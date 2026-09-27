@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Connect",
+    "slug": "connect-social-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/connect-logo.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/connect-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "package": "com.xterol.connect",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/connect-logo.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.xterol.connect",
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/connect-logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "connect"
+  }
+}
